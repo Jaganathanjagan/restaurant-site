@@ -1,0 +1,79 @@
+nav {
+    background-color: black;
+    color: white;
+    padding: 50px;
+    margin: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items:last baseline
+}
+
+li, h1, ul {
+    display: inline;
+}
+
+ul {
+    margin-left: 25%;
+    list-style: none;
+}
+
+li {
+    color: gray;
+    cursor: pointer;
+}
+
+li:hover {
+    color: brown;
+}
+
+.box {
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    padding: 2px
+}
+
+.product {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.box img {
+    display: block;
+    margin: 0 auto;
+}
+
+h1 {
+    display: inline;
+}
+
+.box:hover {
+    background-color: black;
+    color: azure;
+    transition: 0.3s ease;
+}
+
+div {
+    margin-left: 10px
+}
+
+.contact-us {
+    background-color: black;
+    color: blanchedalmond;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+   align-items: center;
+}
+
+
+
